@@ -1,0 +1,43 @@
+html {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: inherit;
+}
+img {
+   size: 5%;
+max-height: 800px;
+}
+
+h1 {
+    align-content: center;
+    border-radius: 5px;
+    background-color: rgb(226, 70, 70);
+}
+p {
+    font-size: large;
+    border-radius: 2px;
+    border-color: lavender;
+}
+
+nav {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    background-color:rgb(241, 135, 135);
+}
+
+.projects {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#project-1  {
+    display: block;
+    max-width: 5px;
+    max-height: 5px;
+}
